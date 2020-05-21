@@ -20,15 +20,17 @@ body {
 #header a:hover {
   color: #222;
 }
-.post-container:nth-child(odd) {
+.post-container:nth-child(even) {
 background-color: #f2f2f2;
 }
+
 .post, .about {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
 
+}
 #header-title {
   display: block;
   float: left;
@@ -45,6 +47,8 @@ background-color: #f2f2f2;
   display: inline;
   padding-left: 20px;
 }
+
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -68,6 +72,8 @@ background-color: #f2f2f2;
   height: 50px;
   border-radius: 50px;
   vertical-align: middle;
+}
+
 }
 .post-author span {
   margin-left: 16px;
@@ -134,3 +140,4 @@ a:hover {
   display: inline-block;
   vertical-align: top;
 }
+
